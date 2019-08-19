@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   resources :artists
   resources :venues
+  root to: "artists#index"
 end
